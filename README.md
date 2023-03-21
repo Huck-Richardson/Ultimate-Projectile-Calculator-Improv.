@@ -6,7 +6,7 @@ Now in c++ with a executable instead of a python file!<br>
 Just git clone it or download the zip and run upc<br>
 
 <h5>Version Plan</h5>
-0.5 First Release<br>
+0.5 First Release (DONE)<br>
 0.6 Normal Mode <br>
 0.7 Orc Mode <br>
 0.8 Add Settings <br>
