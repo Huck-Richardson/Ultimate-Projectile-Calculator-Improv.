@@ -3,7 +3,7 @@
 <h4>The Improved version of Ultimate-Projectile-Calculator!</h4>
 
 Now in c++ with a executable instead of a python file!<br>
-Just git clone it or download the zip and run upc<br>
+Just git clone it or download the zip and compile upc.cpp<br>
 
 <h5>Version Plan</h5>
 0.5 First Release (DONE)<br>
