@@ -1,5 +1,5 @@
 # Ultimate-Projectile-Calculator-Improv.
-![UPC](https://github.com/Huck-Richardson/Ultimate-Projectile-Calculator-Improv./blob/main/upc.png?raw=true)
+![UPC](https://drive.google.com/file/d/1YwK2cOQXgn07Dh1zsWlkLX0b7kVna_vt/view?usp=share_link)
 <h4>The Improved version of Ultimate-Projectile-Calculator!</h4>
 
 Now in c++ with a executable instead of a python file!<br>
