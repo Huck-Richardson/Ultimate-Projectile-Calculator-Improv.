@@ -4,6 +4,7 @@
 
 Now in c++ with a executable instead of a python file!<br>
 Just git clone it or download the zip and compile upc.cpp<br>
+or grap the binary from releases<br>
 
 <h5>Version Plan</h5>
 0.5 First Release (DONE)<br>
