@@ -32,7 +32,7 @@ std::cout << "#           ULTIMATE PROJECTILE CALCULATOR IMPROVED         #\n";
 std::cout << "#                     BY HUCK-RICHARDSON                    #\n";
 std::cout << "#                                                           #\n";
 std::cout << "#                  1:Scientest     2:Normal                 #\n";
-std::cout << "#                                                      v0.7 #\n";
+std::cout << "#                                                      v0.6 #\n";
 std::cout << "#############################################################\n";
 std::cin >> u_input;
 
