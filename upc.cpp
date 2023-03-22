@@ -31,8 +31,8 @@ std::cout << "#                                                           #\n";
 std::cout << "#           ULTIMATE PROJECTILE CALCULATOR IMPROVED         #\n";
 std::cout << "#                     BY HUCK-RICHARDSON                    #\n";
 std::cout << "#                                                           #\n";
-std::cout << "#                  1:Scientest     2:Normal                 #\n";
-std::cout << "#                                                      v0.6 #\n";
+std::cout << "#             1:Scientest     2:Normal     3:Orc            #\n";
+std::cout << "#                                                      v0.7 #\n";
 std::cout << "#############################################################\n";
 std::cin >> u_input;
 
@@ -67,11 +67,12 @@ if ( u_input == 2 ) {
 	std::cout << "Please enter your weight (kg)\n";
 	std::cin >> weight;
 	std::cout << "Please choose one of the options below for physical ability\n";
-	std::cout << "###############\n";
-	std::cout << "# 1:Althete   #\n";
-	std::cout << "# 2:Normal    #\n";
-	std::cout << "# 3:Jelly Man #\n";
-	std::cout << "###############\n";
+	std::cout << "####################\n";
+	std::cout << "# 1:Pro Althete   #\n";
+	std::cout << "# 2:Normal         #\n";
+	std::cout << "# 3:Jelly Man      #\n";
+	std::cout << "# 4:Thor           #\n";
+	std::cout << "####################\n";
 	std::cin >> u_input;
 	if (u_input == 1) {
  		power = 20;	
@@ -82,6 +83,9 @@ if ( u_input == 2 ) {
 	if (u_input == 3) {
 		power = 5;
 	}
+	if (u_input == 4) {
+		power = 10000;
+	}
 	
 	//Projectile Info
 	std::cout << "Please enter the mass of the projectile (kg)\n";
@@ -91,6 +95,75 @@ if ( u_input == 2 ) {
 	// Asuming you live on earth and live in a normal area
 	g = 9.8;
 	air_density = 1;
+}
+
+if ( u_input == 3 ) {
+//Orc Mode
+	//Collecting Info
+	//Person Info
+	std::cout << "Please enter your height (m)\n";
+	std::cin >> height;
+	std::cout << "Please enter your weight (kg)\n";
+	std::cin >> weight;
+	std::cout << "Please choose one of the options below for physical ability\n";
+	std::cout << "####################\n";
+	std::cout << "# 1:Pro Althete    #\n";
+	std::cout << "# 2:Normal         #\n";
+	std::cout << "# 3:Jelly Man      #\n";
+	std::cout << "# 4:Thor           #\n";
+	std::cout << "####################\n";
+	std::cin >> u_input;
+	if (u_input == 1) {
+ 		power = 20;	
+	}
+	if (u_input == 2) {
+		power = 10;
+	}
+	if (u_input == 3) {
+		power = 5;
+	}
+	if (u_input == 4) {
+		power = 1000000000;
+	}
+	//Chooseing Object
+	std::cout << "Please choose one of the objects to throw\n";
+	std::cout << "############################\n";
+	std::cout << "# 1:Microwave              #\n";
+	std::cout << "# 2:Webster's Dictionary   #\n";
+	std::cout << "# 3:Stapler                #\n";
+	std::cout << "# 4:Meter wide lead cube   #\n";
+	std::cout << "# 5:Baseball               #\n";
+	std::cout << "# 6:Empire State Building  #\n";
+	std::cout << "############################\n";
+	std::cin >> u_input;
+	if (u_input == 1) {
+		mass = 27.3;
+		pro_area = 0.3;
+	}
+	if (u_input == 2) {
+		mass = 0.6;
+		pro_area = 0.005;
+	}
+	if (u_input == 3) {
+		mass = 0.2;
+		pro_area = 0.0027;
+	}
+	if (u_input == 4) {
+		mass = 11342;
+		pro_area = 1;
+	}
+	if (u_input == 5) {
+		mass = .14;
+		pro_area = 0.01;
+	}
+	if (u_input == 6) {
+		mass = 331122430;
+		pro_area = 5464;
+	}
+	// Asuming you live on earth and live in a normal area
+	g = 9.8;
+	air_density = 1;
+
 }
 
 
